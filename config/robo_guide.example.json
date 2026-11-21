@@ -1,0 +1,29 @@
+{
+  "robot": {
+    "ip": "192.168.178.31"
+  },
+  "cameras": [
+    { "id": "cam1", "name": "Robot & workspace overview", "role": "overview",   "host": "192.168.178.41", "port": 554, "stream": "stream2", "url": "", "enabled": false },
+    { "id": "cam2", "name": "Card pickup & gripper",      "role": "gripper",    "host": "192.168.178.42", "port": 554, "stream": "stream2", "url": "", "enabled": false },
+    { "id": "cam3", "name": "Access-control reader",      "role": "reader",     "host": "192.168.178.43", "port": 554, "stream": "stream2", "url": "", "enabled": false },
+    { "id": "cam4", "name": "Result & device inspection", "role": "inspection", "host": "192.168.178.44", "port": 554, "stream": "stream2", "url": "", "enabled": false }
+  ],
+  "jira": {
+    "deployment": "cloud",
+    "baseUrl": "",
+    "xrayBaseUrl": "https://xray.cloud.getxray.app",
+    "projectKey": "",
+    "testJql": "",
+    "allowInsecureHttp": false,
+    "statusMap": {}
+  },
+  "platform": {
+    "mode": "none",
+    "allowOperatorObservation": true
+  },
+  "paths": {
+    "evidenceDir": "",
+    "testDefinitionsDir": "",
+    "bindingsFile": ""
+  }
+}

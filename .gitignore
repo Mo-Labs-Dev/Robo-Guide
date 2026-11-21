@@ -37,3 +37,10 @@ downloaded_v1/
 .vscode/
 .idea/
 .DS_Store
+
+# Robo Guide local files
+/build/
+/logs/
+/evidence/
+config/robo_guide.json
+config/.env

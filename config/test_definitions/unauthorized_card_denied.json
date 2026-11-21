@@ -1,0 +1,16 @@
+{
+  "id": "unauthorized_card_denied",
+  "title": "Unauthorized card is denied on Reader 1",
+  "credentialId": "REPLACE-WITH-PLATFORM-CREDENTIAL-ID",
+  "readerId": "REPLACE-WITH-PLATFORM-READER-ID",
+  "expected": "ACCESS_DENIED",
+  "eventLatencyMs": 3000,
+  "clockSkewMs": 1000,
+  "steps": [
+    { "type": "pick_card", "label": "Storage slot A2" },
+    { "type": "present_card", "label": "Centre of reader field", "durationMs": 2000 },
+    { "type": "capture_evidence", "label": "Reader and result cameras" },
+    { "type": "check_platform_event", "label": "Expect access denied event (a missing event is an ERROR, not a pass)" },
+    { "type": "return_card", "label": "Storage slot A2" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "_comment": "Copy to test_bindings.json. Maps Jira/Xray test keys to approved definition ids. Tests without a binding are shown as UNSUPPORTED and never executed.",
+  "bindings": {
+    "PROJ-101": "authorized_card_access",
+    "PROJ-102": "unauthorized_card_denied"
+  }
+}

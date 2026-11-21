@@ -1,0 +1,17 @@
+{
+  "id": "authorized_card_access",
+  "title": "Authorized LEGIC card grants access on Reader 1",
+  "credentialId": "REPLACE-WITH-PLATFORM-CREDENTIAL-ID",
+  "readerId": "REPLACE-WITH-PLATFORM-READER-ID",
+  "expected": "ACCESS_GRANTED",
+  "eventLatencyMs": 3000,
+  "clockSkewMs": 1000,
+  "steps": [
+    { "type": "note", "label": "Authorized credential against Reader 1" },
+    { "type": "pick_card", "label": "Storage slot A1" },
+    { "type": "present_card", "label": "Centre of reader field, card parallel to reader", "durationMs": 2000 },
+    { "type": "capture_evidence", "label": "Reader and result cameras" },
+    { "type": "check_platform_event", "label": "Expect access granted event" },
+    { "type": "return_card", "label": "Storage slot A1" }
+  ]
+}
