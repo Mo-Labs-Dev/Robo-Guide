@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<package format="3"><name>robotest_waveshare</name><version>1.0.0</version><description>Read-only Waveshare RoArm monitoring</description><maintainer email="dev@example.invalid">RoboTest Studio</maintainer><license>MIT</license><buildtool_depend>ament_cmake</buildtool_depend><depend>rclcpp</depend><depend>std_msgs</depend><depend>sensor_msgs</depend><export><build_type>ament_cmake</build_type></export></package>

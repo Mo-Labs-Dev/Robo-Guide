@@ -1,0 +1,1 @@
+{"name":"Example inspection","steps":[{"type":"note","label":"Check fixture"},{"type":"wait","ms":500},{"type":"note","label":"Record result"}]}

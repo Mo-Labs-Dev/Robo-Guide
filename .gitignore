@@ -1,0 +1,39 @@
+# ROS 2 generated files
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Qt / CMake generated files
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/compile_commands.json
+**/.qt/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Backups and downloaded archives
+backups/
+downloaded_v1/
+*.zip
+
+# Logs
+*.log
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*credentials*
+*secrets*
+*password*
+*.key
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
